@@ -13,7 +13,7 @@ Source0:	http://opensource.theopalgroup.com/files/%{module}-%{version}.tgz
 URL:		http://opensource.theopalgroup.com/
 Patch0:		%{name}-setup.patch
 %pyrequires_eq  python-modules
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 BuildRequires:  rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
