@@ -14,7 +14,7 @@ URL:		http://opensource.theopalgroup.com/
 Patch0:		%{name}-setup.patch
 %pyrequires_eq  python-modules
 BuildRequires:	python-devel >= 1:2.3
-BuildRequires:  rpm-pythonprov
+BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
