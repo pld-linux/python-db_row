@@ -34,7 +34,7 @@ przechowywanie wyników zapytañ do baz danych.
 
 %build
 CFLAGS="%{rpmcflags}"
-export CLFAGS
+export CFLAGS
 python setup.py build
 
 %install
