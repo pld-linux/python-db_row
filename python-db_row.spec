@@ -1,5 +1,4 @@
 
-%include        /usr/lib/rpm/macros.python
 %define	module	db_row
 
 Summary:	Database abstraction layer
