@@ -1,0 +1,9 @@
+diff -uNr db_row-0.8-orig/setup.py db_row-0.8/setup.py
+--- db_row-0.8-orig/setup.py	2003-10-15 20:04:45.000000000 +0200
++++ db_row-0.8/setup.py	2004-05-23 11:44:59.250980744 +0200
+@@ -14,4 +14,5 @@
+        maintainer_email = " jacobs@theopalgroup.com",
+        description = "db_row objects",
+        include_dirs = ['.'],
++       py_modules = ['db_row'],
+        ext_modules = [ Extension('db_rowc', ['fields.c','row.c']) ])
