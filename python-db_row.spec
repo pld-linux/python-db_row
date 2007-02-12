@@ -2,7 +2,7 @@
 %define	module	db_row
 
 Summary:	Database abstraction layer
-Summary(pl):	Warstwa abstrakcji baz danych
+Summary(pl.UTF-8):   Warstwa abstrakcji baz danych
 Name:		python-%{module}
 Version:	0.8
 Release:	1
@@ -21,10 +21,10 @@ The db_row module defines light-weight objects suitable for
 many applications, though the primary goal of the
 implementer is for storage of database query results.
 
-%description -l pl
-Modu≥ db_row definiuje zestaw lekkich obiektÛw odpowiednich
-dla wielu aplikacji, jednak g≥Ûwnym zamierzeniem jest
-przechowywanie wynikÛw zapytaÒ do baz danych.
+%description -l pl.UTF-8
+Modu≈Ç db_row definiuje zestaw lekkich obiekt√≥w odpowiednich
+dla wielu aplikacji, jednak g≈Ç√≥wnym zamierzeniem jest
+przechowywanie wynik√≥w zapyta≈Ñ do baz danych.
 
 %prep
 %setup -q -n %{module}-%{version}
