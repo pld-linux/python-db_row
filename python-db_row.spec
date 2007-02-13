@@ -2,7 +2,7 @@
 %define	module	db_row
 
 Summary:	Database abstraction layer
-Summary(pl.UTF-8):   Warstwa abstrakcji baz danych
+Summary(pl.UTF-8):	Warstwa abstrakcji baz danych
 Name:		python-%{module}
 Version:	0.8
 Release:	1
