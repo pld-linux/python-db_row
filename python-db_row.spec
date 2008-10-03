@@ -5,7 +5,7 @@ Summary:	Database abstraction layer
 Summary(pl.UTF-8):	Warstwa abstrakcji baz danych
 Name:		python-%{module}
 Version:	0.8
-Release:	2
+Release:	3
 License:	distributable
 Group:		Development/Languages/Python
 Source0:	http://opensource.theopalgroup.com/files/%{module}-%{version}.tgz
