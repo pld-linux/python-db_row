@@ -33,14 +33,11 @@ wyników zapytań do baz danych.
 %patch0 -p1
 
 %build
-CFLAGS="%{rpmcflags}"
-export CFLAGS
-python setup.py build
+%py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install \
-	--root=$RPM_BUILD_ROOT \
+%py_install \
 	--install-lib=%{py_sitescriptdir} \
 	--optimize=2
 
