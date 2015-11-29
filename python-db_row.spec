@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:	http://opensource.theopalgroup.com/files/%{module}-%{version}.tgz
 # Source0-md5:	8a264dde00752bef9a5751c5382269c8
 URL:		http://opensource.theopalgroup.com/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Patch0:		%{name}-setup.patch
 %pyrequires_eq  python-modules
 BuildRequires:	python-devel >= 1:2.3
